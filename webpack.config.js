@@ -57,6 +57,16 @@ module.exports = {
           },
         },
       },
+      // Babel config for CSS files
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      // Babel config for images
+      {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
+        use: ["file-loader"],
+      },
     ],
   },
 
