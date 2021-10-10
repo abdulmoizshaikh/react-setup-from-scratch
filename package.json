@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "This is a project for setup react app from scratch this includes webpack and babel setup from scratch without using create-react-app",
   "main": "index.js",
+  "homepage": "https://abdulmoizshaikh.github.io/react-setup-from-scratch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Muhammad Moiz",
   "license": "ISC",
