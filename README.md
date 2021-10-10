@@ -91,4 +91,4 @@ module.export = {
 
 ## DEMO
 
-[https://github.com/abdulmoizshaikh/react-setup-from-scratch]
+[https://abdulmoizshaikh.github.io/react-setup-from-scratch/]
