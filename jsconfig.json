@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "checkJs": true,
+    "jsx": "react"
+  }
+}
+
+// {
+//   "compilerOptions": {
+//     "baseUrl": "./src",
+//     "checkJs": true,
+//     "jsx": "react"
+//   }
+// }
+
+// {
+//   "compilerOptions": {
+//     "baseUrl": "src"
+//     // "paths": {
+//     //   "*": ["src/*"]
+//     // }
+//   },
+//   "includes": ["src"]
+// }
+
+// {
+//   "compilerOptions": {
+//     "baseUrl": "./src",
+//     "paths": {
+//       // "rmv/*": ["./components/rmv/*"]
+//     }
+//   }
+// }
+
+// {
+//   "compilerOptions": {
+//     "baseUrl": "./src",
+//     "paths": {
+//       "@/*": ["src/*"]
+//     }
+//   }
+// }

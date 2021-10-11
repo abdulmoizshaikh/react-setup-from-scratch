@@ -1,0 +1,15 @@
+{
+  "white": "#ffffff",
+  "yellowStar": "#fabd30",
+  "black": "#000000",
+  "orange": "#ee6229",
+  "greyTxt": "#3e3d3d",
+  "lightGreyTxt": "#aaaaaa",
+  "greyBackground": "#f4f4f4",
+  "iconBC": "#efefef",
+  "headerLinearGradientBC": "linear-gradient(to right,#051720,#071921,#15262d,#2f3c41,#3e4a4d,#5f6868,#8d908c)",
+  "pinkHeart": "#ec4174",
+  "calenderBC": "#5c84fb",
+  "fbBtnBC": "#4267b3",
+  "faCheckboxGray": "#d6d6d6"
+}

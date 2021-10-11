@@ -105,4 +105,22 @@ module.exports = {
     // maxBundleSize: 250,
     // warnAtPercent: 80,
   },
+
+  /**resolve absolute path in webpack
+   * Then you can import by
+   * import something from 'src/index.js'
+   */
+
+  // resolve: {
+  //   extensions: [".js", ".jsx"],
+  //   // alias: {
+  //   //   root: __dirname,
+  //   //   src: path.resolve(__dirname, 'src'),
+  //   // },
+  // },
+  resolve: {
+    modules: ["node_modules", "src"],
+    extensions: [".js", ".jsx", ".react.js"],
+    // mainFields: ["browser", "jsnext:main", "main"],
+  },
 };
