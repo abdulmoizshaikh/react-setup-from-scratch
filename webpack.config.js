@@ -98,4 +98,11 @@ module.exports = {
    * Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
    */
   mode: "development",
+  performance: {
+    // hints: true,
+    // Turn off size warnings for entry points
+    hints: false,
+    // maxBundleSize: 250,
+    // warnAtPercent: 80,
+  },
 };
