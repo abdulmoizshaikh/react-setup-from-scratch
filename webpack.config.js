@@ -7,7 +7,7 @@ module.exports = {
    * First, we need to tell webpack where to start bundling the javascript files, this we can do by specifying entry property. Learn more about the entry field.
    * Here we are using path this is native NodeJs module, it helps us in the concatenation of file paths.
    */
-  entry: path.join(__dirname, "src", "index.js"),
+  entry: [path.join(__dirname, "src", "index.js")],
 
   /**
    * Define output path for the bundled file
